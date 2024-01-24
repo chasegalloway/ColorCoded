@@ -1,0 +1,25 @@
+{
+  "name": "colorcoded_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.4",
+    "electron-builder": "^24.9.1",
+    "electron-packager": "^17.1.2"
+  },
+  "win": {
+    "icon": "icon.ico"
+  },
+  "mac": {
+    "icon": "icon.ico"
+  }
+}
