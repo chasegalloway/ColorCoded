@@ -98,74 +98,74 @@ function arraysEqual(arr1, arr2) {
 // Define the configurations and their meanings
 const configurations = {
     '1': [
-        'white', 'white', 'black', 'white', 'white',
-        'white', 'black', 'black', 'white', 'white',
-        'white', 'white', 'black', 'white', 'white',
-        'white', 'white', 'black', 'white', 'white',
-        'white', 'black', 'black', 'black', 'white'
+        'white', 'white', 'blue', 'white', 'white',
+        'white', 'blue', 'blue', 'white', 'white',
+        'white', 'white', 'blue', 'white', 'white',
+        'white', 'white', 'blue', 'white', 'white',
+        'white', 'blue', 'blue', 'blue', 'white'
     ],
     '2': [
-        'black', 'black', 'black', 'black', 'white',
-        'white', 'white', 'white', 'white', 'black',
-        'black', 'black', 'black', 'black', 'white',
-        'black', 'white', 'white', 'white', 'white',
-        'black', 'black', 'black', 'black', 'black'
+        'blue', 'blue', 'blue', 'blue', 'white',
+        'white', 'white', 'white', 'white', 'blue',
+        'blue', 'blue', 'blue', 'blue', 'white',
+        'blue', 'white', 'white', 'white', 'white',
+        'blue', 'blue', 'blue', 'blue', 'blue'
     ],
     '3': [
-        'white', 'black', 'black', 'black', 'black',
-        'white', 'white', 'white', 'white', 'black',
-        'white', 'white', 'black', 'black', 'white',
-        'white', 'white', 'white', 'white', 'black',
-        'white', 'black', 'black', 'black', 'black'
+        'white', 'blue', 'blue', 'blue', 'blue',
+        'white', 'white', 'white', 'white', 'blue',
+        'white', 'white', 'blue', 'blue', 'white',
+        'white', 'white', 'white', 'white', 'blue',
+        'white', 'blue', 'blue', 'blue', 'blue'
     ],
     '4': [
-        'black', 'white', 'white', 'black', 'white',
-        'black', 'white', 'white', 'black', 'white',
-        'black', 'black', 'black', 'black', 'black',
-        'white', 'white', 'white', 'black', 'white',
-        'white', 'white', 'white', 'black', 'white'
+        'blue', 'white', 'white', 'blue', 'white',
+        'blue', 'white', 'white', 'blue', 'white',
+        'blue', 'blue', 'blue', 'blue', 'blue',
+        'white', 'white', 'white', 'blue', 'white',
+        'white', 'white', 'white', 'blue', 'white'
     ],
     '5': [
-        'black', 'black', 'black', 'black', 'black',
-        'black', 'white', 'white', 'white', 'white',
-        'black', 'black', 'black', 'black', 'black',
-        'white', 'white', 'white', 'white', 'black',
-        'black', 'black', 'black', 'black', 'black'
+        'blue', 'blue', 'blue', 'blue', 'blue',
+        'blue', 'white', 'white', 'white', 'white',
+        'blue', 'blue', 'blue', 'blue', 'blue',
+        'white', 'white', 'white', 'white', 'blue',
+        'blue', 'blue', 'blue', 'blue', 'blue'
     ],
     '6': [
-        'black', 'black', 'black', 'black', 'black',
-        'black', 'white', 'white', 'white', 'white',
-        'black', 'black', 'black', 'black', 'black',
-        'black', 'white', 'white', 'white', 'black',
-        'black', 'black', 'black', 'black', 'black'
+        'blue', 'blue', 'blue', 'blue', 'blue',
+        'blue', 'white', 'white', 'white', 'white',
+        'blue', 'blue', 'blue', 'blue', 'blue',
+        'blue', 'white', 'white', 'white', 'blue',
+        'blue', 'blue', 'blue', 'blue', 'blue'
     ],
     '7': [
-        'black', 'black', 'black', 'black', 'black',
-        'white', 'white', 'white', 'white', 'black',
-        'white', 'white', 'white', 'black', 'white',
-        'white', 'white', 'black', 'white', 'white',
-        'white', 'white', 'black', 'white', 'white'
+        'white', 'blue', 'blue', 'blue', 'blue',
+        'white', 'white', 'white', 'white', 'blue',
+        'white', 'white', 'white', 'blue', 'white',
+        'white', 'white', 'blue', 'white', 'white',
+        'white', 'white', 'blue', 'white', 'white'
     ],
     '8': [
-        'white', 'black', 'black', 'black', 'white',
-        'black', 'white', 'white', 'white', 'black',
-        'white', 'black', 'black', 'black', 'white',
-        'black', 'white', 'white', 'white', 'black',
-        'white', 'black', 'black', 'black', 'white'
+        'white', 'blue', 'blue', 'blue', 'white',
+        'blue', 'white', 'white', 'white', 'blue',
+        'white', 'blue', 'blue', 'blue', 'white',
+        'blue', 'white', 'white', 'white', 'blue',
+        'white', 'blue', 'blue', 'blue', 'white'
     ],
     '9': [
-        'black', 'black', 'black', 'black', 'black',
-        'black', 'white', 'white', 'white', 'black',
-        'black', 'black', 'black', 'black', 'black',
-        'white', 'white', 'white', 'white', 'black',
-        'black', 'black', 'black', 'black', 'black'
+        'blue', 'blue', 'blue', 'blue', 'blue',
+        'blue', 'white', 'white', 'white', 'blue',
+        'blue', 'blue', 'blue', 'blue', 'blue',
+        'white', 'white', 'white', 'white', 'blue',
+        'blue', 'blue', 'blue', 'blue', 'blue'
     ],
     '0': [
-        'white', 'black', 'black', 'black', 'white',
-        'black', 'white', 'white', 'black', 'black',
-        'black', 'white', 'black', 'white', 'black',
-        'black', 'black', 'white', 'white', 'black',
-        'white', 'black', 'black', 'black', 'white'
+        'white', 'blue', 'blue', 'blue', 'white',
+        'blue', 'white', 'white', 'blue', 'blue',
+        'blue', 'white', 'blue', 'white', 'blue',
+        'blue', 'blue', 'white', 'white', 'blue',
+        'white', 'blue', 'blue', 'blue', 'white'
     ],
     'A': [
         'white', 'red', 'red', 'red', 'white',
@@ -318,7 +318,7 @@ const configurations = {
         'red', 'white', 'white', 'white', 'red',
         'red', 'white', 'white', 'white', 'red',
         'white', 'red', 'white', 'red', 'white',
-        'white', 'white', 'red', 'white', 'white',
+        'white', 'red', 'white', 'red', 'white',
         'white', 'white', 'red', 'white', 'white'
     ],
     'W': [
@@ -363,11 +363,46 @@ const configurations = {
         'white', 'white', 'white', 'white', 'white',
         'white', 'white', 'white', 'white', 'white'
     ],
-    "test": [
+    '696e206265747765656': [
+        'white', 'white', 'black', 'white', 'white',
+        'white', 'white', 'black', 'white', 'white',
+        'white', 'white', 'black', 'white', 'white',
+        'white', 'white', 'black', 'white', 'white',
+        'white', 'white', 'black', 'white', 'white'
+    ],
+    '=': [
+        'white', 'white', 'white', 'white', 'white',
+        'white', 'black', 'black', 'black', 'white',
+        'white', 'white', 'white', 'white', 'white',
+        'white', 'black', 'black', 'black', 'white',
+        'white', 'white', 'white', 'white', 'white'
+    ],
+    '+': [
+        'white', 'white', 'white', 'white', 'white',
+        'white', 'white', 'black', 'white', 'white',
+        'white', 'black', 'black', 'black', 'white',
+        'white', 'white', 'black', 'white', 'white',
+        'white', 'white', 'white', 'white', 'white'
+    ],
+    '-': [
         'white', 'white', 'white', 'white', 'white',
         'white', 'white', 'white', 'white', 'white',
-        'white', 'white', 'purple', 'white', 'white',
+        'white', 'black', 'black', 'black', 'white',
         'white', 'white', 'white', 'white', 'white',
+        'white', 'white', 'white', 'white', 'white'
+    ],
+    '*': [
+        'white', 'white', 'white', 'white', 'white',
+        'white', 'black', 'white', 'black', 'white',
+        'white', 'white', 'black', 'white', 'white',
+        'white', 'black', 'white', 'black', 'white',
+        'white', 'white', 'white', 'white', 'white'
+    ],
+    '/': [
+        'white', 'white', 'white', 'white', 'white',
+        'white', 'white', 'white', 'black', 'white',
+        'white', 'white', 'black', 'white', 'white',
+        'white', 'black', 'white', 'white', 'white',
         'white', 'white', 'white', 'white', 'white'
     ],
 };
@@ -396,7 +431,7 @@ runButton.addEventListener('click', () => {
         alert(`${configResult}`);
     } else {
         // If no matching configuration, alert the colors
-        alert(/*colors.join(', ')*/ 'Error: No matching configuration found');
+        alert(/*colors.join(', ')*/ 'Error: Invalid syntax');
     }
 });
 // Function to get the color name from its CSS value
