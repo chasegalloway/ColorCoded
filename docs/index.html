@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorCoded IDE | Chase Galloway</title>
+    <link rel="stylesheet" href="../src/styles/css/styles.css">
+</head>
+<body>
+    <div class="title-container">
+        <h1>ColorCoded IDE</h1>
+    </div>
+    <div class="grid-container">
+        <div class="block">
+            <div class="grid" id="code-grid">
+            </div>
+        </div>
+        <div class="block">
+            <div class="palette" id="color-palette">
+                <div class="color" style="background-color: red;"></div>
+                <div class="color" style="background-color: orange;"></div>
+                <div class="color" style="background-color: yellow;"></div>
+                <div class="color" style="background-color: lime;"></div>
+                <div class="color" style="background-color: green;"></div>
+                <div class="color" style="background-color: cyan;"></div>
+                <div class="color" style="background-color: blue;"></div>
+                <div class="color" style="background-color: purple;"></div>
+                <div class="color" style="background-color: pink;"></div>
+                <div class="color" style="background-color: rgb(82, 59, 40)"></div>
+                <div class="color" style="background-color: black;"></div>
+                <div class="color" style="background-color: gray;"></div>
+                <div class="color" style="background-color: white;"></div>
+            </div>
+            <button id="submit-button">Submit</button>
+            <button class="run-button">Run Code</button>
+            <button class="clear-button">Clear</button>
+        </div>
+    </div>
+
+    <div class="output-container">
+        <div class="output-grid" id="output-grid"></div>
+    </div>
+
+    <div class="submitted-grids" id="submitted-grids"></div>
+
+    <script src="../src/static/generate-grid.js"></script>
+    <script src="../src/static/color-selection.js"></script>
+    <script src="../src/static/submit-grid.js"></script>
+</body>
+</html>

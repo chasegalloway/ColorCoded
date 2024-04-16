@@ -17,9 +17,9 @@
     "electron-packager": "^17.1.2"
   },
   "win": {
-    "icon": "icon.ico"
+    "icon": "src/styles/assets/icons/icon.ico"
   },
   "mac": {
-    "icon": "icon.ico"
+    "icon": "src/styles/assets/icons/icon.icns"
   }
 }
