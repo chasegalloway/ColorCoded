@@ -1,4 +1,5 @@
 let selectedColor = null;
+let isMouseDown = false;
 
 // Add click event listener to each color div
 document.querySelectorAll('.color').forEach(colorDiv => {
@@ -7,11 +8,24 @@ document.querySelectorAll('.color').forEach(colorDiv => {
   });
 });
 
-// Add click event listener to each cell div
+// Add mousedown, mouseup, and mouseover event listeners to each cell div
 document.querySelectorAll('.cell').forEach(cellDiv => {
-  cellDiv.addEventListener('click', function() {
+  cellDiv.addEventListener('mousedown', function() {
+    isMouseDown = true;
     if (selectedColor) {
       cellDiv.style.backgroundColor = selectedColor;
     }
+  });
+  cellDiv.addEventListener('mouseup', function() {
+    isMouseDown = false;
+  });
+  cellDiv.addEventListener('mouseover', function() {
+    if (isMouseDown && selectedColor) {
+      cellDiv.style.backgroundColor = selectedColor;
+    }
+  });
+  cellDiv.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    cellDiv.style.backgroundColor = 'white';
   });
 });

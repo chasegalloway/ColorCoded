@@ -307,6 +307,20 @@ globalThis.configs = {
     'white', 'black', 'white', 'white', 'white',
     'white', 'white', 'white', 'white', 'white'
 ],
+'wait msec': [
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'yellow', 'white', 'black',
+    'black', 'white', 'yellow', 'yellow', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'black', 'black', 'white'
+],
+'wait sec': [
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'pink', 'white', 'black',
+    'black', 'white', 'pink', 'pink', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'black', 'black', 'white'
+],
 'test': [
     'white', 'white', 'white', 'white', 'white',
     'white', 'white', 'white', 'white', 'white',
