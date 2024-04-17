@@ -4,6 +4,7 @@ const gridCount = 25;
 
 for (let i = 0; i < gridCount; i++) {
     const div = document.createElement('div');
+    div.id = 'cell';
     div.className = 'cell';
 
     field.appendChild(div);

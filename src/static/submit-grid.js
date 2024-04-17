@@ -1,8 +1,8 @@
 // Get the submit button, the original grid, and the submitted grids container
-const submitButton = document.getElementById('submit-button');
-const grid = document.getElementById('code-grid');
-const submittedGrids = document.getElementById('submitted-grids');
-const cell = document.getElementsByClassName('cell');
+const submitButton = document.querySelector('.submit-button');
+const grid = document.querySelector('#code-grid');
+const submittedGrids = document.querySelector('#submitted-grids');
+const cell = document.querySelectorAll('.cell');
 
 submitButton.addEventListener('click', function() {
   // Clone the original grid
