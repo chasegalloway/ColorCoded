@@ -251,6 +251,20 @@ globalThis.configs = {
     'white', 'red', 'white', 'white', 'white',
     'red', 'red', 'red', 'red', 'red'
 ],
+'uppercase': [
+    'white', 'white', 'red', 'white', 'white',
+    'white', 'red', 'red', 'red', 'white',
+    'red', 'white', 'red', 'white', 'red',
+    'white', 'white', 'red', 'white', 'white',
+    'white', 'white', 'red', 'white', 'white'
+],
+'lowercase': [
+    'white', 'white', 'red', 'white', 'white',
+    'white', 'white', 'red', 'white', 'white',
+    'red', 'white', 'red', 'white', 'red',
+    'white', 'red', 'red', 'red', 'white',
+    'white', 'white', 'red', 'white', 'white'
+],
 'print': [
     'brown', 'white', 'white', 'white', 'brown',
     'brown', 'white', 'white', 'white', 'brown',
@@ -265,7 +279,7 @@ globalThis.configs = {
     'white', 'white', 'white', 'white', 'white',
     'white', 'white', 'white', 'white', 'white'
 ],
-'in between': [
+'|': [
     'white', 'white', 'black', 'white', 'white',
     'white', 'white', 'black', 'white', 'white',
     'white', 'white', 'black', 'white', 'white',
