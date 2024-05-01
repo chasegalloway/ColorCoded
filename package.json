@@ -1,25 +1,44 @@
 {
   "name": "colorcoded_app",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "package": "electron-packager . auton-help-app --asar --platform=win32 --arch=x64 --overwrite",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "build-publish": "electron-builder -p always",
+    "build": "electron-builder -p never"
+  },
+  "build": {
+    "appId": "com.6210a.auton-help",
+    "win": {
+      "icon": "src/styles/assets/icons/icon.ico"
+    },
+    "mac": {
+      "icon": "src/styles/assets/icons/icon.icns"
+    },
+    "nsis": {
+      "perMachine": false,
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "license": "LICENSE"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "chasegalloway",
+        "repo": "ColorCoded"
+      }
+    ]
   },
   "keywords": [],
-  "author": "",
+  "author": "Chase Galloway",
   "license": "ISC",
   "devDependencies": {
     "electron": "^28.1.4",
     "electron-builder": "^24.9.1",
-    "electron-packager": "^17.1.2"
-  },
-  "win": {
-    "icon": "src/styles/assets/icons/icon.ico"
-  },
-  "mac": {
-    "icon": "src/styles/assets/icons/icon.icns"
+    "electron-packager": "^17.1.2",
+    "electron-updater": "^6.1.8"
   }
 }

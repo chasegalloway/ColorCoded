@@ -14,11 +14,11 @@ globalThis.configs = {
     'blue', 'blue', 'blue', 'blue', 'blue'
 ],
 '3': [
-    'white', 'blue', 'blue', 'blue', 'blue',
+    'blue', 'blue', 'blue', 'blue', 'blue',
     'white', 'white', 'white', 'white', 'blue',
-    'white', 'white', 'blue', 'blue', 'white',
+    'white', 'blue', 'blue', 'blue', 'white',
     'white', 'white', 'white', 'white', 'blue',
-    'white', 'blue', 'blue', 'blue', 'blue'
+    'blue', 'blue', 'blue', 'blue', 'blue'
 ],
 '4': [
     'blue', 'white', 'white', 'blue', 'white',
@@ -85,9 +85,9 @@ globalThis.configs = {
 ],
 'C': [
     'white', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
     'red', 'white', 'white', 'white', 'white',
-    'red', 'white', 'white', 'white', 'red',
+    'red', 'white', 'white', 'white', 'white',
+    'red', 'white', 'white', 'white', 'white',
     'white', 'red', 'red', 'red', 'white'
 ],
 'D': [
@@ -192,7 +192,7 @@ globalThis.configs = {
     'red', 'red', 'red', 'red', 'white',
     'red', 'white', 'white', 'white', 'red',
     'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'red', 'white',
+    'red', 'white', 'white', 'white', 'red',
     'red', 'white', 'white', 'white', 'red'
 ],
 'S': [
@@ -279,7 +279,7 @@ globalThis.configs = {
     'white', 'white', 'white', 'white', 'white',
     'white', 'white', 'white', 'white', 'white'
 ],
-'|': [
+'between': [
     'white', 'white', 'black', 'white', 'white',
     'white', 'white', 'black', 'white', 'white',
     'white', 'white', 'black', 'white', 'white',
@@ -321,6 +321,13 @@ globalThis.configs = {
     'white', 'black', 'white', 'white', 'white',
     'white', 'white', 'white', 'white', 'white'
 ],
+'.': [
+    'white', 'white', 'white', 'white', 'white',
+    'white', 'white', 'white', 'white', 'white',
+    'white', 'white', 'white', 'white', 'white',
+    'white', 'white', 'white', 'white', 'white',
+    'white', 'white', 'blue', 'white', 'white'
+],
 'wait msec': [
     'white', 'black', 'black', 'black', 'white',
     'black', 'white', 'yellow', 'white', 'black',
@@ -335,12 +342,26 @@ globalThis.configs = {
     'black', 'white', 'white', 'white', 'black',
     'white', 'black', 'black', 'black', 'white'
 ],
-'test': [
+'true': [
     'white', 'white', 'white', 'white', 'white',
+    'white', 'white', 'white', 'white', 'lime',
+    'white', 'white', 'white', 'lime', 'white',
+    'lime', 'white', 'lime', 'white', 'white',
+    'white', 'lime', 'white', 'white', 'white',
+],
+'false': [
     'white', 'white', 'white', 'white', 'white',
-    'white', 'white', 'purple', 'white', 'white',
+    'white', 'red', 'white', 'red', 'white',
+    'white', 'white', 'red', 'white', 'white',
+    'white', 'red', 'white', 'red', 'white',
     'white', 'white', 'white', 'white', 'white',
-    'white', 'white', 'white', 'white', 'white'
+],
+'or': [
+    'white', 'purple', 'white', 'purple', 'white',
+    'white', 'purple', 'white', 'purple', 'white',
+    'white', 'purple', 'white', 'purple', 'white',
+    'white', 'purple', 'white', 'purple', 'white',
+    'white', 'purple', 'white', 'purple', 'white'
 ]
 };
 

@@ -14,15 +14,31 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Function to check the configuration of a single grid and return a message
-    function checkConfiguration(colors) {
-        for (const check in configs) {
-            const configColors = configs[check];
-            if (arraysEqual(colors, configColors)) {
-                return check;
-            }
-        }
-        return null; // Return null if no matching configuration is found
+function checkConfiguration(colors) {
+    // Check if the first layer defines grid as a boolean variable
+    const checkFirstLayer = colors.slice(0, 5);
+    if (checkFirstLayer.every(color => color === 'brown')) {
+        const bool = colors;
+        // Process the bool
+        return 'bool';
+    } else if (checkFirstLayer.every(color => color === 'cyan')) {
+        const int = colors;
+        // Process the int
+        return 'int';
+    } else if (checkFirstLayer.every(color => color === 'red')) {
+        const string = colors;
+        // Process the string
+        return 'string';
     }
+
+    for (const check in configs) {
+        const configColors = configs[check];
+        if (arraysEqual(colors, configColors)) {
+            return check;
+        }
+    }
+    return null; // Return null if no matching configuration is found
+}
 
     // Event listener for the "Run Code" button
     runButton.addEventListener('click', () => {
@@ -47,11 +63,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (configResult) {
                     if (configResult === "print") {
                         printStart = true;
-                    } else if (printStart && configResult === "|") {
-                        isPrinting = true;
-                    } else if (configResult === "|" && isPrinting) {
-                        isPrinting = false;
-                        printStart = false;
+                    } else if (printStart && configResult === "between") {
+                        isPrinting = !isPrinting;
+                        if (!isPrinting) {
+                            printStart = false;
+                        }
                     } else if (isPrinting) {
                         output += configResult;
                     } else if (/^\d+$/.test(configResult) || ["+", "-", "*", "/"].includes(configResult)) {
@@ -72,8 +88,12 @@ document.addEventListener('DOMContentLoaded', function () {
                     if (expression.trim() === "=") {
                         output += 'Error: Invalid syntax';
                     } else {
-                        const result = eval(expression.slice(0, -1)); // Remove the "="
-                        output += result.toString();
+                        try {
+                            const result = eval(expression.slice(0, -1)); // Remove the "="
+                            output += result.toString();
+                        } catch (e) {
+                            output += 'Error: Invalid syntax';
+                        }
                     }
                     // Reset the expression and equalsSignFound for the next calculation
                     expression = '';
