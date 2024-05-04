@@ -7,7 +7,49 @@
     <link rel="stylesheet" href="../src/styles/css/styles.css">
 </head>
 <body>
-    <div class="title-container">
+    <div name="grid-container" class="grid-container">
+        <div name="edit-grid" class="edit-grid" id="edit-grid"></div>
+        <div class="palette" id="color-palette">
+            <div class="color" style="background-color: red;"></div>
+            <div class="color" style="background-color: orange;"></div>
+            <div class="color" style="background-color: yellow;"></div>
+            <div class="color" style="background-color: lime;"></div>
+            <div class="color" style="background-color: green;"></div>
+            <div class="color" style="background-color: cyan;"></div>
+            <div class="color" style="background-color: blue;"></div>
+            <div class="color" style="background-color: purple;"></div>
+            <div class="color" style="background-color: pink;"></div>
+            <div class="color" style="background-color: rgb(82, 59, 40)"></div>
+            <div class="color" style="background-color: black;"></div>
+            <div class="color" style="background-color: gray;"></div>
+            <div class="color" style="background-color: white;"></div>
+        </div>
+        <button id="submit-button" class="submit-button">Submit</button>
+        
+        <button id="clear-button" class="clear-button">Clear Grid</button>
+    </div>
+    <div class="top-bar" id="top-bar">
+        <button id="run-button" class="run-button" title="Run Code"></button>
+    </div>
+    <div name="editor-container" class="editor-container">
+        <div name="editor" class="editor"></div>
+        <div class="output-grid" id="output-grid"></div>
+        <div class="submitted-grids" id="submitted-grids"></div>
+    </div>
+
+    <div class="word-container" id="word-container">
+        <button class="generator-toggle">
+            <h1 class="generator-title">String Generator</h1>
+        </button>
+        <textarea class="word-generator" id="word-generator" placeholder="Type out words or numbers here"></textarea>
+        <button class="generate-word-button" id="generate-word-button" title="Generate String">
+            <img class="plus-png" src="../src/styles/assets/plus.png"/>
+        </button>
+    </div>
+    <div name="output-container" class="output-container">
+
+    </div>
+    <!-- <div class="title-container">
         <h1>ColorCoded IDE</h1>
     </div>
     <div class="grid-container">
@@ -16,33 +58,15 @@
             </div>
         </div>
         <div class="block">
-            <div class="palette" id="color-palette">
-                <div class="color" style="background-color: red;"></div>
-                <div class="color" style="background-color: orange;"></div>
-                <div class="color" style="background-color: yellow;"></div>
-                <div class="color" style="background-color: lime;"></div>
-                <div class="color" style="background-color: green;"></div>
-                <div class="color" style="background-color: cyan;"></div>
-                <div class="color" style="background-color: blue;"></div>
-                <div class="color" style="background-color: purple;"></div>
-                <div class="color" style="background-color: pink;"></div>
-                <div class="color" style="background-color: rgb(82, 59, 40)"></div>
-                <div class="color" style="background-color: black;"></div>
-                <div class="color" style="background-color: gray;"></div>
-                <div class="color" style="background-color: white;"></div>
-            </div>
-            <button id="submit-button" class="submit-button">Submit</button>
-            <button id="run-button" class="run-button">Run Code</button>
-            <button id="clear-button" class="clear-button">Clear Grid</button>
-            <button id="clear-grids-button" class="clear-grids-button">Clear Submitted Grids</button>
+            
         </div>
     </div>
 
     <div class="output-container">
-        <div class="output-grid" id="output-grid"></div>
+        
     </div>
 
-    <div class="submitted-grids" id="submitted-grids"></div>
+> -->
 
     <script src="../src/static/generate-grid.js"></script>
     <script src="../src/static/color-selection.js"></script>

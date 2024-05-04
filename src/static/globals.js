@@ -1,269 +1,269 @@
 globalThis.configs = {
 '1': [
-    'white', 'white', 'blue', 'white', 'white',
-    'white', 'blue', 'blue', 'white', 'white',
-    'white', 'white', 'blue', 'white', 'white',
-    'white', 'white', 'blue', 'white', 'white',
-    'white', 'blue', 'blue', 'blue', 'white'
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'black', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'black', 'black', 'black', 'white'
 ],
 '2': [
-    'blue', 'blue', 'blue', 'blue', 'white',
-    'white', 'white', 'white', 'white', 'blue',
-    'blue', 'blue', 'blue', 'blue', 'white',
-    'blue', 'white', 'white', 'white', 'white',
-    'blue', 'blue', 'blue', 'blue', 'blue'
+    'black', 'black', 'black', 'black', 'white',
+    'white', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'black', 'black', 'black', 'black'
 ],
 '3': [
-    'blue', 'blue', 'blue', 'blue', 'blue',
-    'white', 'white', 'white', 'white', 'blue',
-    'white', 'blue', 'blue', 'blue', 'white',
-    'white', 'white', 'white', 'white', 'blue',
-    'blue', 'blue', 'blue', 'blue', 'blue'
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'white', 'white', 'white', 'black',
+    'white', 'black', 'black', 'black', 'white',
+    'white', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'black'
 ],
 '4': [
-    'blue', 'white', 'white', 'blue', 'white',
-    'blue', 'white', 'white', 'blue', 'white',
-    'blue', 'blue', 'blue', 'blue', 'blue',
-    'white', 'white', 'white', 'blue', 'white',
-    'white', 'white', 'white', 'blue', 'white'
+    'black', 'white', 'white', 'black', 'white',
+    'black', 'white', 'white', 'black', 'white',
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'white', 'white', 'black', 'white',
+    'white', 'white', 'white', 'black', 'white'
 ],
 '5': [
-    'blue', 'blue', 'blue', 'blue', 'blue',
-    'blue', 'white', 'white', 'white', 'white',
-    'blue', 'blue', 'blue', 'blue', 'blue',
-    'white', 'white', 'white', 'white', 'blue',
-    'blue', 'blue', 'blue', 'blue', 'blue'
+    'black', 'black', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'black'
 ],
 '6': [
-    'blue', 'blue', 'blue', 'blue', 'blue',
-    'blue', 'white', 'white', 'white', 'white',
-    'blue', 'blue', 'blue', 'blue', 'blue',
-    'blue', 'white', 'white', 'white', 'blue',
-    'blue', 'blue', 'blue', 'blue', 'blue'
+    'black', 'black', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'black', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'black'
 ],
 '7': [
-    'white', 'blue', 'blue', 'blue', 'blue',
-    'white', 'white', 'white', 'white', 'blue',
-    'white', 'white', 'white', 'blue', 'white',
-    'white', 'white', 'blue', 'white', 'white',
-    'white', 'white', 'blue', 'white', 'white'
+    'white', 'black', 'black', 'black', 'black',
+    'white', 'white', 'white', 'white', 'black',
+    'white', 'white', 'white', 'black', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white'
 ],
 '8': [
-    'white', 'blue', 'blue', 'blue', 'white',
-    'blue', 'white', 'white', 'white', 'blue',
-    'white', 'blue', 'blue', 'blue', 'white',
-    'blue', 'white', 'white', 'white', 'blue',
-    'white', 'blue', 'blue', 'blue', 'white'
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'black', 'black', 'white'
 ],
 '9': [
-    'blue', 'blue', 'blue', 'blue', 'blue',
-    'blue', 'white', 'white', 'white', 'blue',
-    'blue', 'blue', 'blue', 'blue', 'blue',
-    'white', 'white', 'white', 'white', 'blue',
-    'blue', 'blue', 'blue', 'blue', 'blue'
+    'black', 'black', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'black'
 ],
 '0': [
-    'white', 'blue', 'blue', 'blue', 'white',
-    'blue', 'white', 'white', 'blue', 'blue',
-    'blue', 'white', 'blue', 'white', 'blue',
-    'blue', 'blue', 'white', 'white', 'blue',
-    'white', 'blue', 'blue', 'blue', 'white'
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'black', 'black',
+    'black', 'white', 'black', 'white', 'black',
+    'black', 'black', 'white', 'white', 'black',
+    'white', 'black', 'black', 'black', 'white'
 ],
 'A': [
-    'white', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'red', 'red', 'red', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red'
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black'
 ],
 'B': [
-    'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'red', 'red', 'red', 'white'
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'white'
 ],
 'C': [
-    'white', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'white', 'red', 'red', 'red', 'white'
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'white', 'black', 'black', 'black', 'white'
 ],
 'D': [
-    'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'red', 'red', 'red', 'white'
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'white'
 ],
 'E': [
-    'red', 'red', 'red', 'red', 'red',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'red', 'red', 'red', 'red'
+    'black', 'black', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'black', 'black', 'black', 'black'
 ],
 'F': [
-    'red', 'red', 'red', 'red', 'red',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'white', 'white', 'white', 'white'
+    'black', 'black', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'white', 'white', 'white', 'white'
 ],
 'G': [
-    'white', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'white', 'red', 'red', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'white', 'red', 'red', 'red', 'white'
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'white', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'black', 'black', 'white'
 ],
 'H': [
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'red', 'red', 'red', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red'
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black'
 ],
 'I': [
-    'red', 'red', 'red', 'red', 'red',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'red', 'red', 'red', 'red', 'red'
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'black', 'black', 'black', 'black', 'black'
 ],
 'J': [
-    'red', 'red', 'red', 'red', 'red',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'red', 'white', 'red', 'white', 'white',
-    'white', 'red', 'red', 'white', 'white'
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'black', 'white', 'black', 'white', 'white',
+    'white', 'black', 'black', 'white', 'white'
 ],
 'K': [
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'red', 'red',
-    'red', 'red', 'red', 'white', 'white',
-    'red', 'white', 'white', 'red', 'red',
-    'red', 'white', 'white', 'white', 'red'
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'black', 'black',
+    'black', 'black', 'black', 'white', 'white',
+    'black', 'white', 'white', 'black', 'black',
+    'black', 'white', 'white', 'white', 'black'
 ],
 'L': [
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'red', 'red', 'red', 'red'
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'black', 'black', 'black', 'black'
 ],
 'M': [
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'red', 'white', 'red', 'red',
-    'red', 'white', 'red', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red'
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'white', 'black', 'black',
+    'black', 'white', 'black', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black'
 ],
 'N': [
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'red', 'white', 'white', 'red',
-    'red', 'white', 'red', 'white', 'red',
-    'red', 'white', 'white', 'red', 'red',
-    'red', 'white', 'white', 'white', 'red'
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'white', 'white', 'black',
+    'black', 'white', 'black', 'white', 'black',
+    'black', 'white', 'white', 'black', 'black',
+    'black', 'white', 'white', 'white', 'black'
 ],
 'O': [
-    'white', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'white', 'red', 'red', 'red', 'white'
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'black', 'black', 'white'
 ],
 'P': [
-    'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'white',
-    'red', 'white', 'white', 'white', 'white'
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'white',
+    'black', 'white', 'white', 'white', 'white'
 ],
 'Q': [
-    'white', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'red', 'white', 'red',
-    'red', 'white', 'white', 'red', 'white',
-    'white', 'red', 'red', 'white', 'red'
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'black', 'white', 'black',
+    'black', 'white', 'white', 'black', 'white',
+    'white', 'black', 'black', 'white', 'black'
 ],
 'R': [
-    'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'red', 'red', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red'
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black'
 ],
 'S': [
-    'white', 'red', 'red', 'red', 'red',
-    'red', 'white', 'white', 'white', 'white',
-    'white', 'red', 'red', 'red', 'red',
-    'white', 'white', 'white', 'white', 'red',
-    'red', 'red', 'red', 'red', 'white'
+    'white', 'black', 'black', 'black', 'black',
+    'black', 'white', 'white', 'white', 'white',
+    'white', 'black', 'black', 'black', 'black',
+    'white', 'white', 'white', 'white', 'black',
+    'black', 'black', 'black', 'black', 'white'
 ],
 'T': [
-    'red', 'red', 'red', 'red', 'red',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white'
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white'
 ],
 'U': [
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'white', 'red', 'red', 'red', 'white'
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'black', 'black', 'white'
 ],
 'V': [
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'white', 'red', 'white', 'red', 'white',
-    'white', 'red', 'white', 'red', 'white',
-    'white', 'white', 'red', 'white', 'white'
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'white', 'black', 'white',
+    'white', 'black', 'white', 'black', 'white',
+    'white', 'white', 'black', 'white', 'white'
 ],
 'W': [
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'white', 'white', 'red',
-    'red', 'white', 'red', 'white', 'red',
-    'red', 'red', 'white', 'red', 'red',
-    'red', 'white', 'white', 'white', 'red'
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'white', 'white', 'black',
+    'black', 'white', 'black', 'white', 'black',
+    'black', 'black', 'white', 'black', 'black',
+    'black', 'white', 'white', 'white', 'black'
 ],
 'X': [
-    'red', 'white', 'white', 'white', 'red',
-    'white', 'red', 'white', 'red', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'red', 'white', 'red', 'white',
-    'red', 'white', 'white', 'white', 'red'
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'white', 'black', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'black', 'white', 'black', 'white',
+    'black', 'white', 'white', 'white', 'black'
 ],
 'Y': [
-    'red', 'white', 'white', 'white', 'red',
-    'white', 'red', 'white', 'red', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white'
+    'black', 'white', 'white', 'white', 'black',
+    'white', 'black', 'white', 'black', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white'
 ],
 'Z': [
-    'red', 'red', 'red', 'red', 'red',
-    'white', 'white', 'white', 'red', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'red', 'white', 'white', 'white',
-    'red', 'red', 'red', 'red', 'red'
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'white', 'white', 'black', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'black', 'white', 'white', 'white',
+    'black', 'black', 'black', 'black', 'black'
 ],
 'uppercase': [
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'red', 'red', 'red', 'white',
-    'red', 'white', 'red', 'white', 'red',
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white'
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'black', 'black', 'black', 'white',
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white'
 ],
 'lowercase': [
-    'white', 'white', 'red', 'white', 'white',
-    'white', 'white', 'red', 'white', 'white',
-    'red', 'white', 'red', 'white', 'red',
-    'white', 'red', 'red', 'red', 'white',
-    'white', 'white', 'red', 'white', 'white'
+    'white', 'white', 'black', 'white', 'white',
+    'white', 'white', 'black', 'white', 'white',
+    'black', 'black', 'black', 'black', 'black',
+    'white', 'black', 'black', 'black', 'white',
+    'white', 'white', 'black', 'white', 'white'
 ],
 'print': [
     'brown', 'white', 'white', 'white', 'brown',
@@ -280,11 +280,11 @@ globalThis.configs = {
     'white', 'white', 'white', 'white', 'white'
 ],
 'between': [
-    'white', 'white', 'black', 'white', 'white',
-    'white', 'white', 'black', 'white', 'white',
-    'white', 'white', 'black', 'white', 'white',
-    'white', 'white', 'black', 'white', 'white',
-    'white', 'white', 'black', 'white', 'white'
+    'white', 'white', 'yellow', 'white', 'white',
+    'white', 'white', 'yellow', 'white', 'white',
+    'white', 'white', 'yellow', 'white', 'white',
+    'white', 'white', 'yellow', 'white', 'white',
+    'white', 'white', 'yellow', 'white', 'white'
 ],
 '=': [
     'white', 'white', 'white', 'white', 'white',
@@ -326,7 +326,7 @@ globalThis.configs = {
     'white', 'white', 'white', 'white', 'white',
     'white', 'white', 'white', 'white', 'white',
     'white', 'white', 'white', 'white', 'white',
-    'white', 'white', 'blue', 'white', 'white'
+    'white', 'white', 'black', 'white', 'white'
 ],
 'wait msec': [
     'white', 'black', 'black', 'black', 'white',
@@ -362,7 +362,14 @@ globalThis.configs = {
     'white', 'purple', 'white', 'purple', 'white',
     'white', 'purple', 'white', 'purple', 'white',
     'white', 'purple', 'white', 'purple', 'white'
-]
+],
+'convert to': [
+    'white', 'white', 'purple', 'white', 'white',
+    'white', 'white', 'purple', 'purple', 'white',
+    'purple', 'purple', 'purple', 'purple', 'purple',
+    'white', 'white', 'purple', 'purple', 'white',
+    'white', 'white', 'purple', 'white', 'white'
+],
 };
 
 globalThis.colorMapping = {
