@@ -29,8 +29,22 @@
         <button id="clear-button" class="clear-button">Clear Grid</button>
     </div>
     <div class="top-bar" id="top-bar">
+        <button id="remove-button" class="remove-button" title="Remove Last Line">
+            <img class="minus-png" src="../src/styles/assets/minus.png" draggable="false"/>
+        </button>
+        <button id="add-button" class="add-button" title="Add Line">
+            <img class="plus-png" src="../src/styles/assets/plus.png" draggable="false"/>
+        </button>
+        <button id="settings-button" class="settings-button" title="Settings">
+            <a href="../docs/settings.html"></a>
+        </button>
         <button id="run-button" class="run-button" title="Run Code"></button>
     </div>
+
+    <div class="line-number-container" id="line-number-container">
+        
+    </div>
+
     <div name="editor-container" class="editor-container">
         <div name="editor" class="editor"></div>
         <div class="output-grid" id="output-grid"></div>
@@ -39,34 +53,23 @@
 
     <div class="word-container" id="word-container">
         <button class="generator-toggle">
-            <h1 class="generator-title">String Generator</h1>
+            <img class="down-png-word" src="../src/styles/assets/down.png" draggable="false"/>
+            <h1 class="generator-title">String/Number Generator</h1>
         </button>
-        <textarea class="word-generator" id="word-generator" placeholder="Type out words or numbers here"></textarea>
-        <button class="generate-word-button" id="generate-word-button" title="Generate String">
-            <img class="plus-png" src="../src/styles/assets/plus.png"/>
+        <textarea class="word-generator" id="word-generator" placeholder="Type out a string or numbers"></textarea>
+        <button class="generate-word-button" id="generate-word-button" title="Generate">
+            <img class="plus-png" src="../src/styles/assets/plus.png" draggable="false"/>
         </button>
     </div>
-    <div name="output-container" class="output-container">
 
+    <div name="output-toggle" class="output-toggle">
+        <button class="problems-button" title="Problems">Problems</button>
+        <button class="output-button" title="Output">Output</button>
+        <button class="terminal-button" title="Terminal">Terminal</button>
     </div>
-    <!-- <div class="title-container">
-        <h1>ColorCoded IDE</h1>
+    <div name="output" class="output">
+        <div name="output-box" class="output-box"></div>
     </div>
-    <div class="grid-container">
-        <div class="block">
-            <div class="grid" id="code-grid">
-            </div>
-        </div>
-        <div class="block">
-            
-        </div>
-    </div>
-
-    <div class="output-container">
-        
-    </div>
-
-> -->
 
     <script src="../src/static/generate-grid.js"></script>
     <script src="../src/static/color-selection.js"></script>

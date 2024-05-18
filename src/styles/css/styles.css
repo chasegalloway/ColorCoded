@@ -1,10 +1,6 @@
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    background-color: darkslategray;
-} */
+body {
+    user-select: none;
+}
 
 .grid-container {
     position: absolute;
@@ -75,11 +71,21 @@
     left: 0;
 }
 
+.down-png-word {
+    position: absolute;
+    height: 2vh;
+    width: 2vh;
+    left: 1vh;
+    top: 1.5vh;
+}
 .generator-title {
+    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
     color: white;
     text-align: left;
+    text-transform: uppercase;
+    left: 4vh;
 }
 
 .word-generator {
@@ -95,6 +101,7 @@
     font-size: 11pt;
     color: white;
     border: 0;
+    text-align: center;
 }
 
 .word-generator:focus {
@@ -121,7 +128,7 @@
     border-radius: 25%;
 } 
 
-.plus-png {
+.generate-word-button .plus-png {
    margin-top: 0.5vh;
    margin-left: -0.2vh;
 }
@@ -136,14 +143,77 @@
     z-index: 1;
 }
 
+/* .line-number-container {
+    position: absolute;
+    height: 66vh;
+    width: 2vw;
+    background-color: #1E1E1E;
+    top: 4vh;
+    left: 30vw;
+    border-right: .1vw solid #414141; 
+} */
+
 .editor-container {
     position: absolute;
-    height: 62vh;
+    height: 66vh;
     width: 70vw;
     background-color: #1E1E1E;
     top: 4vh;
     right: 0;
+    overflow: scroll;
     /* border-left: .1vw solid #414141; */
+}
+
+.editor-container::-webkit-scrollbar, .editor-container::-webkit-scrollbar-track, .editor-container::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.editor-container::-webkit-scrollbar-thumb {
+    background-color: #2D2D2D;
+}
+
+.remove-button {
+    position: absolute;
+    height: 4vh;
+    width: 4vh;
+    top: 0;
+    left: 1vh;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.remove-button:hover {
+    background-color: #4c4c4e;
+    border-radius: 25%
+}
+
+.remove-button .minus-png {
+    margin-top: 0.3vh;
+    margin-left: -0.1vh;
+}
+
+.add-button {
+    position: absolute;
+    height: 4vh;
+    width: 4vh;
+    top: 0;
+    left: 6vh;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.add-button:hover {
+    background-color: #4c4c4e;
+    border-radius: 25%
+}
+
+.add-button .plus-png {
+    margin-top: 0.3vh;
+    margin-left: -0.1vh;
 }
 
 .run-button {
@@ -153,6 +223,18 @@
    top: 0;
    right: 0;
 }
+
+.settings-button {
+    position: absolute;
+    height: 4vh;
+    width: 4vh;
+    top: 0;
+    right: 4vh;
+ }
+
+ .run-button:hover, .settings-button:hover {
+    outline: none;
+ }
 
 .submitted-grids .edit-grid {
     position: relative;
@@ -167,13 +249,59 @@
     left: 0;
 }
 
-.output-container {
+.output-toggle {
     position: absolute;
-    height: 34vh;
+    height: 4vh;
+    width: 70vw;
+    background-color: #0e0e0e;
+    right: 0;
+    bottom: 26vh;
+    box-sizing: content-box;
+    border-top: .1vw solid #414141;
+
+}
+
+.output-toggle button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    text-transform: uppercase;
+    color: #979797;
+    background-color: transparent;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    margin-top: 1.5vh;
+    margin-left: 2vh;
+}
+
+.output-toggle button:hover {
+    color: white;
+}
+
+.output-toggle button:focus {
+    text-decoration: underline;
+    color: white
+}
+
+.output {
+    position: absolute;
+    height: 26vh;
     width: 70vw;
     background-color: #0e0e0e;
     right: 0;
     bottom: 0;
     box-sizing: content-box;
-    border-top: .1vw solid #414141;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+}
+
+.output-box {
+    position: absolute;
+    height: 26vh;
+    width: 68.5vw;
+    right: 0;
+    bottom: 0;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
 }
