@@ -1,5 +1,6 @@
 body {
     user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-container {
@@ -40,6 +41,46 @@ body {
     left: 0.2vw;
 }
 
+.submit-button {
+    position: absolute;
+    height: 4vh;
+    width: 4vh;
+    top: 80%;
+    left: 9.25vw;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    background-color: transparent;
+
+}
+
+.submit-button:hover {
+    background-color: #4c4c4e;
+    border-radius: 25%;
+}
+
+.submit-button .plus-png {
+    margin-top: 0.5vh;
+    margin-left: -0.2vh;
+}
+
+.clear-button {
+    position: absolute;
+    height: 4vh;
+    width: 4vh;
+    top: 80%;
+    left: 18.8vw;
+    border: 0;
+    background: none;
+    box-shadow: none; 
+    background-color: transparent;
+}
+
+.clear-button:hover {
+    background-color: #4c4c4e;
+    border-radius: 25%;
+}
+
 .color {
     cursor: pointer;
     box-sizing: border-box;
@@ -78,6 +119,7 @@ body {
     left: 1vh;
     top: 1.5vh;
 }
+
 .generator-title {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
@@ -85,7 +127,7 @@ body {
     color: white;
     text-align: left;
     text-transform: uppercase;
-    left: 4vh;
+    /* left: 4vh; */
 }
 
 .word-generator {
@@ -216,6 +258,50 @@ body {
     margin-left: -0.1vh;
 }
 
+.up-button {
+    position: absolute;
+    height: 4vh;
+    width: 4vh;
+    top: 0;
+    left: 11vh;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.up-button:hover {
+    background-color: #4c4c4e;
+    border-radius: 25%
+}
+
+.up-button .up-png {
+    margin-top: 0.3vh;
+    margin-left: -0.2vh;
+}
+
+.down-button {
+    position: absolute;
+    height: 4vh;
+    width: 4vh;
+    top: 0;
+    left: 16vh;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.down-button:hover {
+    background-color: #4c4c4e;
+    border-radius: 25%
+}
+
+.down-button .down-png {
+    margin-top: 0.3vh;
+    margin-left: -0.2vh;
+}
+
 .run-button {
    position: absolute;
    height: 4vh;
@@ -236,6 +322,10 @@ body {
     outline: none;
  }
 
+.submitted-grids {
+    display: flex;
+}
+
 .submitted-grids .edit-grid {
     position: relative;
     display: grid;
@@ -247,6 +337,18 @@ body {
     margin: 1vh;
     top: 0;
     left: 0;
+}
+
+.submitted-grids .edit-grid .delete-button {
+    position: absolute;
+    height: 2vh;
+    width: 2vh;
+    top: 0;
+    right: 0;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    background-color: red;
 }
 
 .output-toggle {

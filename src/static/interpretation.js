@@ -1,4 +1,3 @@
-// Get references to HTML elements
 const runButton = document.querySelector('.run-button');
 let submitted_grids;
 
@@ -14,31 +13,31 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Function to check the configuration of a single grid and return a message
-function checkConfiguration(colors) {
-    // Check if the first layer defines grid as a boolean variable
-    const checkFirstLayer = colors.slice(0, 5);
-    if (checkFirstLayer.every(color => color === 'brown')) {
-        const bool = colors;
-        // Process the bool
-        return 'bool';
-    } else if (checkFirstLayer.every(color => color === 'cyan')) {
-        const int = colors;
-        // Process the int
-        return 'int';
-    } else if (checkFirstLayer.every(color => color === 'red')) {
-        const string = colors;
-        // Process the string
-        return 'string';
-    }
-
-    for (const check in configs) {
-        const configColors = configs[check];
-        if (arraysEqual(colors, configColors)) {
-            return check;
+    function checkConfiguration(colors) {
+        // Check if the first layer defines grid as a boolean variable
+        const checkFirstLayer = colors.slice(0, 5);
+        if (checkFirstLayer.every(color => color === 'brown')) {
+            const bool = colors;
+            // Process the bool
+            return 'bool';
+        } else if (checkFirstLayer.every(color => color === 'cyan')) {
+            const int = colors;
+            // Process the int
+            return 'int';
+        } else if (checkFirstLayer.every(color => color === 'red')) {
+            const string = colors;
+            // Process the string
+            return 'string';
         }
+
+        for (const check in configs) {
+            const configColors = configs[check];
+            if (arraysEqual(colors, configColors)) {
+                return check;
+            }
+        }
+        return null; // Return null if no matching configuration is found
     }
-    return null; // Return null if no matching configuration is found
-}
 
     // Event listener for the "Run Code" button
     runButton.addEventListener('click', () => {
@@ -48,6 +47,7 @@ function checkConfiguration(colors) {
         let equalsSignFound = false;
         let isPrinting = false;
         let printStart = false;
+        let printTimes = 0;
         if (submitted_grids) {
             const submittedGridList = submitted_grids.children;
             Array.from(submittedGridList).forEach((grid) => {
@@ -59,16 +59,18 @@ function checkConfiguration(colors) {
                 });
                 // Check the configuration and display the result
                 const configResult = checkConfiguration(colors);
-                console.log(`Processing grid with config: ${configResult}`); // Log the config
+                console.log(`Processing grid with config: ${configResult}`);
                 if (configResult) {
                     if (configResult === "print") {
                         printStart = true;
                     } else if (printStart && configResult === "between") {
                         isPrinting = !isPrinting;
+                        printTimes++;
                         if (!isPrinting) {
                             printStart = false;
+                            console.log(`Printing ${printTimes} times`);
                         }
-                    } else if (isPrinting) {
+                    } else if (isPrinting /*&& printTimes > 1*/) { // needs to be fixed
                         output += configResult;
                     } else if (/^\d+$/.test(configResult) || ["+", "-", "*", "/"].includes(configResult)) {
                         expression += configResult;
@@ -89,7 +91,7 @@ function checkConfiguration(colors) {
                         output += 'Error: Invalid syntax';
                     } else {
                         try {
-                            const result = eval(expression.slice(0, -1)); // Remove the "="
+                            const result = eval(expression.slice(0, -1)); // Removes the "="
                             output += result.toString();
                         } catch (e) {
                             output += 'Error: Invalid syntax';
@@ -103,8 +105,8 @@ function checkConfiguration(colors) {
         } else {
             output = 'Error: No submitted grids found';
         }
-        // Display the output in an alert
-        alert(output);
+        // Display the output in an element with the class name of 'output'
+        document.querySelector('.output-box').innerText = output;
     });
 
     // Function to get the color name from its CSS value

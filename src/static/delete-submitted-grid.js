@@ -1,9 +1,11 @@
-document.querySelectorAll('.submitted-grids').forEach(grid => {
-    grid.addEventListener('contextmenu', function (e) {
-        e.preventDefault();
-        const submittedGrid = grid.querySelector('.edit-grid');
-        if (submittedGrid) {
-            submittedGrid.parentElement.removeChild(submittedGrid);
-        }
+$(document).ready(function() {
+    console.log("Script is running");
+    $('body').on('mouseenter', '.submitted-grids .edit-grid', function() {
+        let deleteButton = $('<button>').addClass('delete-button').text('Delete');
+        $(this).append(deleteButton);
+    });
+
+    $('body').on('mouseleave', '.submitted-grids .edit-grid', function() {
+        $(this).find('.delete-button').remove();
     });
 });

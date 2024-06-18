@@ -356,6 +356,13 @@ globalThis.configs = {
         'white', 'red', 'white', 'red', 'white',
         'white', 'white', 'white', 'white', 'white',
     ],
+    'if': [
+        'purple', 'purple', 'purple', 'purple', 'purple',
+        'white', 'white', 'white', 'white', 'purple',
+        'white', 'white', 'white', 'white', 'purple',
+        'white', 'white', 'white', 'white', 'purple',
+        'purple', 'purple', 'purple', 'purple', 'purple',
+    ],
     'or': [
         'white', 'purple', 'white', 'purple', 'white',
         'white', 'purple', 'white', 'purple', 'white',

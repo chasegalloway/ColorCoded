@@ -24,16 +24,24 @@
             <div class="color" style="background-color: gray;"></div>
             <div class="color" style="background-color: white;"></div>
         </div>
-        <button id="submit-button" class="submit-button">Submit</button>
+        <button id="submit-button" class="submit-button" title="Submit Grid">
+            <img class="plus-png" src="../src/styles/assets/plus.png" draggable="false"/>
+        </button>
         
-        <button id="clear-button" class="clear-button">Clear Grid</button>
+        <button id="clear-button" class="clear-button" title="Clear Grid"></button>
     </div>
     <div class="top-bar" id="top-bar">
-        <button id="remove-button" class="remove-button" title="Remove Last Line">
+        <button id="remove-button" class="remove-button" title="Remove Line">
             <img class="minus-png" src="../src/styles/assets/minus.png" draggable="false"/>
         </button>
         <button id="add-button" class="add-button" title="Add Line">
             <img class="plus-png" src="../src/styles/assets/plus.png" draggable="false"/>
+        </button>
+        <button id="up-button" class="up-button" title="Move Up One Line(↑)">
+            <img class="up-png" src="../src/styles/assets/up.png" draggable="false"/>
+        </button>
+        <button id="down-button" class="down-button" title="Move Down One Line(↓)">
+            <img class="down-png" src="../src/styles/assets/down.png" draggable="false"/>
         </button>
         <button id="settings-button" class="settings-button" title="Settings">
             <a href="../docs/settings.html"></a>
@@ -42,7 +50,7 @@
     </div>
 
     <div class="line-number-container" id="line-number-container">
-        
+
     </div>
 
     <div name="editor-container" class="editor-container">
@@ -53,10 +61,10 @@
 
     <div class="word-container" id="word-container">
         <button class="generator-toggle">
-            <img class="down-png-word" src="../src/styles/assets/down.png" draggable="false"/>
+            <!-- <img class="down-png-word" src="../src/styles/assets/down.png" draggable="false"/> -->
             <h1 class="generator-title">String/Number Generator</h1>
         </button>
-        <textarea class="word-generator" id="word-generator" placeholder="Type out a string or numbers"></textarea>
+        <textarea class="word-generator" id="word-generator" placeholder="Type out a string or number"></textarea>
         <button class="generate-word-button" id="generate-word-button" title="Generate">
             <img class="plus-png" src="../src/styles/assets/plus.png" draggable="false"/>
         </button>
@@ -71,6 +79,7 @@
         <div name="output-box" class="output-box"></div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../src/static/generate-grid.js"></script>
     <script src="../src/static/color-selection.js"></script>
     <script src="../src/static/globals.js"></script>
