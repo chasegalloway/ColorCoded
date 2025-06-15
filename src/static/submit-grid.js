@@ -28,6 +28,14 @@ submitButton.addEventListener("click", () => {
     console.log("makeDraggable function not available")
   }
 
+  // Add delete button functionality
+  if (window.addDeleteButton) {
+    console.log("Adding delete button to new grid")
+    window.addDeleteButton(submittedGrid)
+  } else {
+    console.log("addDeleteButton function not available")
+  }
+
   // Clear the original edit_grid
   const cells = edit_grid.getElementsByClassName("cell")
   for (let i = 0; i < cells.length; i++) {
